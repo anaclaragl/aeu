@@ -6,11 +6,11 @@ export default createGlobalStyle`
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Arial, sans-serif;
   }
   :root {
-    --main: #6c757d;
-    --main-hover: #5a6268;
+    --main: #07ad18;
+    --main-hover: #04630e;
     --white: #ffffff;
     --black: #000000;
     --grey: #f0f0f0;

@@ -1,2 +1,2 @@
-export { default as apiCurso } from './Curso';
-export { default as apiAluno } from './Aluno';
+export { default as apiPedido } from './Pedido2';
+export { default as apiLogin } from './Login';

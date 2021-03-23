@@ -10,7 +10,7 @@ const sizeVariations = {
 }
 const colorVariations = {
   default: css`
-    background: var(--main);
+    background: var(--green);
     color: var(--white);
     &.hover {
       background: var(--main-hover);
@@ -27,7 +27,7 @@ const Link = styled.a<LinkProps>`
   display: flex;
   align-items: center;
   margin: 0 10px;
-  color: var(--black);
+  color: var(--white);
   border: 0;
   border-radius: 5px;
   cursor: pointer;

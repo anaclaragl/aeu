@@ -1,5 +1,5 @@
 import GlobalStyle from "../styles/GlobalStyles";
-import {ToastContainer} from 'react-toastify';
+import {ToastContainer} from "react-toastify";
 
 function MyApp({ Component, pageProps }) {
   return (
