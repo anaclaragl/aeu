@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { useRouter } from "next/router";
-import { ImHome } from "react-icons/im";
+import { FcHome } from "react-icons/fc";
 import { apiLogin } from "../../api/data";
 import { ILogin } from "../../interfaces/Login.interface";
 import { Link } from "../../styles";
@@ -21,7 +21,7 @@ const Header = () => {
   return (
     <Container>
       <div className="container">
-        <ImHome onClick={() => router.push("/")} />
+        <FcHome onClick={() => router.push("/")} />
         {login &&
           login.map((item) => (
             <Link key={item.id} href={`/${item.id}`}>
