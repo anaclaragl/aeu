@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import { useRouter } from "next/router";
 import { FcHome } from "react-icons/fc";
+import { BsPerson } from "react-icons/bs";
 import { apiLogin } from "../../api/data";
 import { ILogin } from "../../interfaces/Login.interface";
 import { Link } from "../../styles";
