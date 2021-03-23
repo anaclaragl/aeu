@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const api = axios.create({
-  baseURL: "https://git.heroku.com/musicnovum.git"
+  baseURL: "https://musicnovum.herokuapp.com/"
 })
 
 export default api;
